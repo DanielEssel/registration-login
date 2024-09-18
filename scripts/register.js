@@ -10,6 +10,7 @@ registerForm.addEventListener("submit", function (event) {
   // Display success message to user (u have to create h1 in the form section and use id selector "message") NB;The space between the h1 created in html is called 'inner html'
   const messageH1 = document.querySelector("#message");
   messageH1.textContent = "Account registered successfully!!";
+  
 });
 // declare variable age
 let myAge = 32;
